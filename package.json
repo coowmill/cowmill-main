@@ -11,5 +11,12 @@
     "url": "(.git)"
   },
   "author": "Sandi Cej",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mongo": "^0.1.0",
+    "vue": "^2.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
