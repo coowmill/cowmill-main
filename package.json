@@ -1,6 +1,9 @@
 {
   "name": "cowmill-main",
   "version": "1.0.0",
+  "engines":{
+    "npm":"3.10.9"
+  },
   "description": "cowmill main branch",
   "main": "index.js",
   "scripts": {
