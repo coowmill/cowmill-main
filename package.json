@@ -1,26 +1,26 @@
 {
-  "name": "cowmill-main",
-  "version": "1.0.0",
-  "engines":{
-    "npm":"3.10.9"
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
   },
-  "description": "cowmill main branch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "(.git)"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "author": "Sandi Cej",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.15.2",
-    "mongo": "^0.1.0",
-    "vue": "^2.2.2"
-  },
-  "devDependencies": {
-    "webpack": "^2.2.1"
-  }
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
