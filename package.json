@@ -2,7 +2,7 @@
   "name": "cowmill-main",
   "version": "1.0.0",
   "description": "cowmill main branch",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "author": "Sandi Cej",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.15.2",
     "mongo": "^0.1.0",
     "vue": "^2.2.2"
   },
